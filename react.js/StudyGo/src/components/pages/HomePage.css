@@ -1,0 +1,39 @@
+.developers_pics {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+}
+.seeIt > p {
+  margin: 0;
+}
+.homePage > h1 {
+  margin-top: 3rem;
+  text-align: center;
+  color: var(--slack-color);
+}
+.name > h3 {
+  margin-top: 10px;
+  text-align: center;
+}
+.name > p {
+  margin: 0;
+  text-align: center;
+  color: gray;
+  font-size: small;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 12rem;
+  padding: 10px;
+}
+
+@media (max-width: 700px) {
+  .developers_pics {
+    display: flex;
+    flex-direction: column;
+  }
+}

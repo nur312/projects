@@ -1,0 +1,40 @@
+.menu.active {
+  margin-top: var(--app-bar-height);
+  background-color: var(--slack-color);
+  width: var(--sidebar-width);
+  position: fixed;
+  right: 2rem;
+  left: auto;
+  color: white;
+  z-index: 999;
+  border-radius: 8px;
+}
+.menu-hide {
+  position: fixed;
+  background-color: red;
+  top: -100%;
+}
+.menu-items {
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu-items > p {
+  margin: 0;
+  color: lightgray;
+  margin-bottom: 30px;
+}
+
+.signOut_btn {
+  border-top: 1px solid lightgray;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.signOut_btn > .MuiButtonBase-root > .MuiButton-label {
+  margin: 0;
+}

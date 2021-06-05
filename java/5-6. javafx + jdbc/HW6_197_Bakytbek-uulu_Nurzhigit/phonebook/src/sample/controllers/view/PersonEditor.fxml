@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="10.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.PersonEditorController">
+   <children>
+      <Label alignment="TOP_CENTER" contentDisplay="CENTER" maxWidth="100000.0" text="Редактирование" textAlignment="CENTER" VBox.vgrow="ALWAYS">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" maxWidth="1.7976931348623157E308" minHeight="50.0">
+         <children>
+            <Label layoutX="23.0" layoutY="7.0" minWidth="100.0" text="Имя" />
+            <TextField fx:id="nameIn" alignment="CENTER_RIGHT" layoutX="179.0" layoutY="2.0" minWidth="180.0" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" maxWidth="1.7976931348623157E308" minHeight="50.0">
+         <children>
+            <Label layoutX="23.0" layoutY="7.0" minWidth="100.0" text="Фамилия" />
+            <TextField fx:id="surnameIn" alignment="CENTER_RIGHT" layoutX="179.0" layoutY="2.0" minWidth="180.0" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" maxWidth="1.7976931348623157E308" minHeight="50.0">
+         <children>
+            <Label layoutX="23.0" layoutY="7.0" minWidth="100.0" text="Телефон" />
+            <TextField fx:id="phoneIn" alignment="CENTER_RIGHT" layoutX="179.0" layoutY="2.0" minWidth="180.0" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" maxWidth="1.7976931348623157E308" minHeight="50.0">
+         <children>
+            <Label layoutX="23.0" layoutY="7.0" minWidth="100.0" text="Адрес" />
+            <TextField fx:id="addressIn" alignment="CENTER_RIGHT" layoutX="179.0" layoutY="2.0" minWidth="180.0" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" maxWidth="1.7976931348623157E308" minHeight="50.0">
+         <children>
+            <Label layoutX="23.0" layoutY="7.0" minWidth="100.0" text="День рождения" />
+            <DatePicker fx:id="birthdayDP" layoutX="178.0" minWidth="180.0" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="99.0" prefWidth="390.0" spacing="10.0">
+         <children>
+            <TextArea fx:id="commentIn" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" maxWidth="1.7976931348623157E308" spacing="20.0">
+         <children>
+            <Button fx:id="cancelBtn" layoutX="97.0" layoutY="59.0" mnemonicParsing="false" onAction="#cancelBtnClicked" text="Отмена">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets></Button>
+            <Button fx:id="saveBtn" layoutX="210.0" layoutY="59.0" mnemonicParsing="false" onAction="#saveBtnClicked" text="Сохранить" />
+         </children>
+      </HBox>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</VBox>

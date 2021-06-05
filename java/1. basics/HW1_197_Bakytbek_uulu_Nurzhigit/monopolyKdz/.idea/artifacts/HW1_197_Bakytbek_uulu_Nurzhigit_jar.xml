@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HW1_197_Bakytbek_uulu_Nurzhigit:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HW1_197_Bakytbek_uulu_Nurzhigit_jar</output-path>
+    <root id="archive" name="HW1_197_Bakytbek_uulu_Nurzhigit.jar">
+      <element id="module-output" name="HW1_197_Bakytbek_uulu_Nurzhigit" />
+    </root>
+  </artifact>
+</component>

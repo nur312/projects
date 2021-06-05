@@ -1,0 +1,19 @@
+----------------------------------------------------------------
+Sun May 09 15:39:52 MSK 2021:
+ Производится загрузка Derby версии The Apache Software Foundation - Apache Derby - 10.15.2.0 - (1873585): экземпляр a816c00e-0179-5124-1a16-0000053c5ed0
+в каталоге базы данных C:\Users\nurzh\Desktop\folders\hse\java\hw6\out\phonebook\phonebookDB jdk.internal.loader.ClassLoaders$AppClassLoader@32e6e9c3 
+
+java.vendor=Oracle Corporation
+java.runtime.version=11.0.8+10-LTS
+user.dir=C:\Users\nurzh\Desktop\folders\hse\java\hw6\out\phonebook
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Запущен загрузчик классов базы данных - derby.database.classpath=''
+----------------------------------------------------------------
+Sun May 09 15:40:06 MSK 2021: Shutting down Derby engine
+----------------------------------------------------------------
+Sun May 09 15:40:06 MSK 2021:
+Завершается работа экземпляра a816c00e-0179-5124-1a16-0000053c5ed0
+----------------------------------------------------------------

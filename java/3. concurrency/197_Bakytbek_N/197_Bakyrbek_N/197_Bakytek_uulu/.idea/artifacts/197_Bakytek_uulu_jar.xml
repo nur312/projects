@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="197_Bakytek_uulu:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/197_Bakytek_uulu_jar</output-path>
+    <root id="archive" name="197_Bakytek_uulu.jar">
+      <element id="module-output" name="197_Bakytek_uulu" />
+    </root>
+  </artifact>
+</component>

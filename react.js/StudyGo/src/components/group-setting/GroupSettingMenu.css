@@ -1,0 +1,53 @@
+.group-menu.active {
+  margin-top: var(--app-bar-height);
+  background-color: var(--slack-color);
+  width: var(--sidebar-width);
+  position: fixed;
+  right: auto;
+  left: 2rem;
+  color: white;
+  z-index: 999;
+  border-radius: 8px;
+  padding-top: 1rem;
+}
+.group-menu-item > input {
+}
+.group-menu-hide {
+  position: fixed;
+  top: -1000px;
+}
+.group-menu-items {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.group-menu-items > h4 {
+  margin: 5px;
+  margin-bottom: 1rem;
+}
+
+.group-signOut_btn {
+  border-top: 1px solid lightgray;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.group-signOut_btn > .MuiButtonBase-root > .MuiButton-label {
+  margin: 0;
+}
+
+.groupOptions {
+  width: 100%;
+  padding-top: 0rem;
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+}
+
+.groupsController {
+  width: 100%;
+  max-height: 250px;
+  overflow-y: auto;
+}

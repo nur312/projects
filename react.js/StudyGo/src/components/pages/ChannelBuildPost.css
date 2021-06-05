@@ -1,0 +1,63 @@
+#datetime-local {
+  font-size: small;
+}
+.MuiFormControlLabel-root > span {
+  font-size: small;
+}
+
+.channelBuildPost_inputContainer {
+  background-color: white;
+  padding: 0;
+  border-radius: 4px;
+  margin-top: 1rem;
+  border: 1px solid lightgray;
+}
+
+.channelBuildPost_input > form > .MuiTextField-root {
+  border: none;
+  flex: 1;
+  margin-left: 10px;
+  outline-width: 0;
+  font-weight: 600;
+  margin-right: 1rem;
+  width: 98%;
+}
+
+.channelBuildPost_input {
+  display: flex;
+  padding: 10px;
+  color: gray;
+}
+
+.channelBuildPost_input > form {
+  width: 100%;
+}
+.channelBuildPost_options {
+  display: flex;
+}
+
+.channelBuildPost_controllers {
+  display: flex;
+
+  align-items: center;
+}
+
+.channelBuildPost_controllers > .MuiTextField-root {
+  margin-left: auto;
+}
+
+.formBtn {
+  display: flex;
+}
+.formBtn > .MuiButtonBase-root {
+  margin-top: 10px;
+  margin-left: auto;
+}
+.formBtn > .MuiButtonBase-root > .MuiButton-label {
+  margin-left: 0;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl.MuiInputBase-multiline.MuiOutlinedInput-multiline {
+  padding: 0.3rem 1rem;
+  padding-right: 4px;
+}

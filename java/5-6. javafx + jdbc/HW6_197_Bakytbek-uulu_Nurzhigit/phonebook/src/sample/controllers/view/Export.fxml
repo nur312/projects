@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="216.0" prefWidth="395.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.ExportController">
+   <children>
+      <Label text="Экспорт контактов" />
+      <HBox alignment="CENTER" prefHeight="162.0" prefWidth="395.0" spacing="10.0">
+         <children>
+            <TextField fx:id="fileNameIn" editable="false" />
+            <Button fx:id="chooseFileBtn" mnemonicParsing="false" onAction="#chooseFileBtnClicked" text="Выбрать путь" />
+         </children>
+      </HBox>
+      <HBox alignment="BOTTOM_CENTER" prefHeight="67.0" prefWidth="395.0" spacing="10.0">
+         <children>
+            <Button fx:id="cancelBtn" mnemonicParsing="false" onAction="#cancelBtnClicked" text="Отмена" />
+            <Button fx:id="okBtn" minWidth="70.0" mnemonicParsing="false" onAction="#okBtnClicked" text="Ок" />
+         </children>
+         <padding>
+            <Insets bottom="10.0" />
+         </padding>
+      </HBox>
+   </children>
+</VBox>

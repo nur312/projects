@@ -1,0 +1,82 @@
+.work-item-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: white;
+  align-items: center;
+  border-radius: 4px;
+}
+.work-item-left {
+  display: flex;
+  align-items: center;
+}
+.work-item-info {
+  margin-left: 0.5rem;
+}
+.work-item-info > span {
+  margin: 0;
+  font-size: 0.7rem;
+  color: gray;
+  font-weight: 300;
+}
+.work-item-controllers {
+  display: flex;
+  vertical-align: center;
+}
+.work-item-controlls {
+  display: flex;
+  justify-content: flex-end;
+}
+.work-item-controllers > input {
+  margin-left: 1rem;
+  font-size: large;
+  width: 2.5rem;
+  border: none;
+  color: green;
+
+  text-align: center;
+}
+.work-item-controllers > .MuiSvgIcon-root {
+  margin-left: 1rem;
+  color: gray;
+  cursor: pointer;
+}
+
+.work-item-controllers > .MuiSvgIcon-root:hover {
+  color: #6d6969;
+}
+
+.work-item-modal {
+  width: 500px;
+  background-color: white;
+}
+
+.work-item-comment-and-mark {
+  padding: 0 5%;
+  padding-bottom: 1rem;
+}
+
+.work-item-mark {
+  display: inline;
+}
+.work-item-mark > input {
+  width: 3.5rem;
+  font-size: 1rem;
+  border: 1px solid lightgray;
+  margin-bottom: 1rem;
+}
+
+.work-item-comment > .MuiTextField-root {
+  width: 100%;
+}
+
+.work-item-controlls {
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .work-item-modal {
+    width: 300px;
+  }
+}

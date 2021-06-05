@@ -1,0 +1,10 @@
+.middle {
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+}
+.middle_item {
+  margin: 20px;
+}
+.middle_link {
+  text-decoration: none;
+}

@@ -1,0 +1,32 @@
+.app {
+  background-color: var(--background-color);
+}
+.content-container {
+  margin-top: var(--app-bar-height);
+  overflow-y: auto;
+  height: calc(100vh - var(--app-bar-height));
+  padding: 0 20%;
+  padding-bottom: 1rem;
+}
+
+.content-container-moved {
+  margin-top: var(--app-bar-height);
+  margin-left: var(--sidebar-width);
+  overflow-y: auto;
+  padding: 0 2%;
+  height: calc(100vh - var(--app-bar-height));
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 900px) {
+  .content-container-moved {
+    margin-left: 0;
+  }
+  .content-container {
+    padding: 0 2%;
+  }
+}
+
+.sidebar-control {
+  cursor: pointer;
+}
