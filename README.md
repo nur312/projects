@@ -27,6 +27,7 @@
 2) Курсовая работа на React.js:
 
   видеообзор: https://youtu.be/8gNuXqtUXBs
+  
   гит: https://github.com/nur312/projects/tree/main/react.js
   
   
