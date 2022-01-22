@@ -11,16 +11,14 @@
   видеообзор: https://www.youtube.com/watch?v=TBAQf87AoF0
   
   гит: https://github.com/nur312/xamarinApp_vObshage
-  
-2) Игра на WindowsForms - контрольное дз
-
-  гит: https://github.com/nur312/FIFA_Game_WinForms
 
 На втором курсе изучали алгоритмы на C++ (добавлю после окончания курса) и паттерны проетирования на Java:
 
-1) Интересные домашки на java
+1)  **JAVA**
 
- гит: https://github.com/nur312/projects/tree/main/java
+В течение года изучали java, паттерны проектирования. Моим уровнем владения и темы можете посмотреть по ссылке внизу
+
+Интересные домашки на гите: https://github.com/nur312/projects/tree/main/java
 
 2) Курсовая работа на React.js:
 
