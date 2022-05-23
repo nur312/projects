@@ -9,6 +9,7 @@
 ВОбщаге - мобльное приложение на Xamarin (к сожалению требовался язык С#, а так хотел бы сделать на Java/Kotlin)
 
   видеообзор: https://www.youtube.com/watch?v=TBAQf87AoF0
+  
   гит: https://github.com/nur312/xamarinApp_vObshage
 
 На втором курсе изучали алгоритмы на C++ и паттерны проетирования на Java:
