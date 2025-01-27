@@ -64,5 +64,5 @@ Backend-разработчик с опытом работы в крупных к
 - Английский: Intermediate (B1)
 - Русский: Свободное владение
 ## Контакты
-- Telegram: @nurzhigitss
+- Telegram: [@nurzhigitss](http://t.me/nurzhigitss)
 - Email: nurzhigit0609@gmail.com
